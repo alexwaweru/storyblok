@@ -52,7 +52,7 @@ const NotesPage = () => {
 
 	const handleDelete = (id) => {
 		deleteNote(id).then(() => {
-			toast.success("Course deleted!");
+			toast.success("Note deleted!");
 		});
 	};
 
